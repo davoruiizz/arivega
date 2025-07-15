@@ -29,6 +29,5 @@ def respond():
 @app.route('/')
 def index():
     return 'Bot de Ari Vega funcionando 😈'
-
 if __name__ == '__main__':
     app.run(threaded=True)
