@@ -1,7 +1,6 @@
 services:
   - type: web
     name: arivega_bot
-    env: python3.10
     plan: free
     buildCommand: pip install -r requirements.txt
 startCommand: python main.py
